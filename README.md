@@ -27,7 +27,7 @@ Stock Dashboard is a web application that displays real-time stock prices for se
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stock_dashboard.git
+   git clone [https://github.com/yourusername/stock_dashboard.git](https://github.com/Ahmed-Beltagy/Finhub_Aider_Assignment.git)
    cd stock_dashboard
    ```
 
@@ -40,13 +40,19 @@ Stock Dashboard is a web application that displays real-time stock prices for se
    ```bash
    mix setup
    ```
-
+4. Run the frontend:
+   ```bash
+   cd stock_dashboard/assets/svelte
+   npm install
+   npm run build
+   ```
 4. Configure your Finnhub API key:
    - Sign up for a free API key at [Finnhub.io](https://finnhub.io/)
-   - Replace the API key in `lib/stock_dashboard/finnhub/client.ex` with your own key
+   - Replace the API key in `lib/stock_dashboard/finnhub/client.ex` with your own key [This shold be in a .env fie, but I left the API in the file as I treated it as it is not a very important API Key I assumed]
 
 5. Start the Phoenix server:
    ```bash
+   cd stock_dashboard
    mix phx.server
    ```
 
