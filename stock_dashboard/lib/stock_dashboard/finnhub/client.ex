@@ -6,11 +6,7 @@ defmodule StockDashboard.Finnhub.Client do
 
   @base_url "https://finnhub.io/api/v1"
 
-  @doc """
-  Get your API key from https://finnhub.io/
-  """
   def api_key do
-    # You should consider moving this to config
     "d0gj0rhr01qhao4tup4gd0gj0rhr01qhao4tup50"
   end
 
