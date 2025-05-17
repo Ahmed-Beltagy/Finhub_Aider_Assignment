@@ -27,7 +27,7 @@ Stock Dashboard is a web application that displays real-time stock prices for se
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/stock_dashboard.git](https://github.com/Ahmed-Beltagy/Finhub_Aider_Assignment.git)
+   git clone https://github.com/Ahmed-Beltagy/Finhub_Aider_Assignment.git
    cd stock_dashboard
    ```
 
